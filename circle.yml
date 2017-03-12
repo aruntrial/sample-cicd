@@ -1,0 +1,6 @@
+general:
+	build_dir: dist
+checkout:
+	post:
+		- cp sample.txt ./dist/sample.txt
+		- cp index.html ./dist/index.html
